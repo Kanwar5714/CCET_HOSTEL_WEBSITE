@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Counting Form</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <h2>Furniture Counting Form</h2>
+        <label for="floor_no">Floor No.:</label>
+        <input type="number" id="floor_no" name="floor_no" required>
+
+        <label for="room_no">Room No.:</label>
+        <input type="number" id="room_no" name="room_no" required>
+
+        <label for="bed">Number of Beds:</label>
+        <input type="number" id="bed" name="bed" required>
+
+        <label for="table">Number of Tables:</label>
+        <input type="number" id="table" name="table" required>
+
+        <label for="chair">Number of Chairs:</label>
+        <input type="number" id="chair" name="chair" required>
+
+        <label for="fan">Number of Fans:</label>
+        <input type="number" id="fan" name="fan" required>
+
+        <label for="bulbs">Number of Bulbs:</label>
+        <input type="number" id="bulbs" name="bulbs" required>
+
+        <label for="tube_light">Number of Tube Lights:</label>
+        <input type="number" id="tube_light" name="tube_light" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            animateFormInputs();
+        });
+
+        function animateFormInputs() {
+            const inputs = document.querySelectorAll("input[type='number']");
+            inputs.forEach((input, index) => {
+                setTimeout(() => {
+                    input.style.transition = "opacity 1s";
+                    input.style.opacity = "1";
+                }, (index + 1) * 2000); 
+            });
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            animateFormInputs();
+        });
+
+        function animateFormInputs() {
+            const form = document.querySelector("form");
+            form.classList.add("loaded");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="Hostel">
+    <table name="freshers_allotment">
+        <column name="Sr_No" type="int(11)" default="NULL" />
+        <column name="ROLL_NO" type="varchar(20)" default="NULL" />
+        <column name="NAME" type="varchar(50)" default="NULL" />
+        <column name="BRANCH" type="varchar(50)" default="NULL" />
+        <column name="PHONE_NUMBER_1" type="varchar(20)" default="NULL" />
+        <column name="PHONE_NUMBER_2" type="varchar(20)" default="NULL" />
+        <column name="YEAR" type="int(11)" default="NULL" />
+        <column name="ROOM_NO" type="int(11)" default="NULL" />
+        <column name="QUOTA" type="varchar(20)" default="NULL" />
+        <column name="STATUS" type="varchar(20)" default="NULL" />
+       <data>
+    <row>
+        <field name="Sr_No">1</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">PIYUSH KHERA</field>
+        <field name="BRANCH">CIVIL</field>
+        <field name="PHONE_NUMBER_1">9915925475</field>
+        <field name="PHONE_NUMBER_2">9915925475</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">51</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">2</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">SPARSH BISHT</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">7818913338</field>
+        <field name="PHONE_NUMBER_2">7818913338</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">51</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">3</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">RAVI KANT SHARMA</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">9462963088</field>
+        <field name="PHONE_NUMBER_2">9462963088</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">51</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">4</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">NAVJOT SINGH</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">7009967925</field>
+        <field name="PHONE_NUMBER_2">7009967925</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">52</field>
+        <field name="QUOTA">CHQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">5</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">DHRUV JOSHI</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">8607718158</field>
+        <field name="PHONE_NUMBER_2">8607718158</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">52</field>
+        <field name="QUOTA">CHQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">6</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">ANUJ KUMAR YADAV</field>
+        <field name="BRANCH">CIVIL</field>
+        <field name="PHONE_NUMBER_1">8949091244</field>
+        <field name="PHONE_NUMBER_2">8949091244</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">52</field>
+        <field name="QUOTA">CHQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">7</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">ARYAN DEV SINGH RANA</field>
+        <field name="BRANCH">CIVIL</field>
+        <field name="PHONE_NUMBER_1">6230246332</field>
+        <field name="PHONE_NUMBER_2">6230246332</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">53</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">8</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">SHIVAM CHOUBEY</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">8787097818</field>
+        <field name="PHONE_NUMBER_2">8787097818</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">53</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">9</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">RAHUL CHAUDHARY</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">9368279293</field>
+        <field name="PHONE_NUMBER_2">9368279293</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">53</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">10</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">NARESH KUMAR RAJORIYA</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">8003213530</field>
+        <field name="PHONE_NUMBER_2">8003213530</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">53</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">11</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">RANJEET KUMAR</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">6203111124</field>
+        <field name="PHONE_NUMBER_2">6203111124</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">54</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">12</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">SACHIN VERMA</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">9878117104</field>
+        <field name="PHONE_NUMBER_2">9878117104</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">54</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">13</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">ABHINAV SHARMA</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">7807728946</field>
+        <field name="PHONE_NUMBER_2">7807728946</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">55</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">14</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">Vanshit Kamboj</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">6375695008</field>
+        <field name="PHONE_NUMBER_2">6375695008</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">56</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">15</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">KABEER NAPHRI</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">9878976574</field>
+        <field name="PHONE_NUMBER_2">9878976574</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">56</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">16</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">AMAN SINHA</field>
+        <field name="BRANCH">ECE</field>
+        <field name="PHONE_NUMBER_1">6287145926</field>
+        <field name="PHONE_NUMBER_2">6287145926</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">56</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">17</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">SHUBHAM KUMAR</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">8340574577</field>
+        <field name="PHONE_NUMBER_2">8340574577</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">56</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">18</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">SANSKAR SHARMA</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">9910071157</field>
+        <field name="PHONE_NUMBER_2">9910071157</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">58</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">19</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">RISHIT SHARMA</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">9417480430</field>
+        <field name="PHONE_NUMBER_2">9417480430</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">58</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">20</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">AYUSH NISHAD</field>
+        <field name="BRANCH">MECH</field>
+        <field name="PHONE_NUMBER_1">85281 07057</field>
+        <field name="PHONE_NUMBER_2">85281 07057</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">60</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+    </row>
+    <row>
+        <field name="Sr_No">21</field>
+        <field name="ROLL_NO">NULL</field>
+        <field name="NAME">ATUL ANAND</field>
+        <field name="BRANCH">CSE</field>
+        <field name="PHONE_NUMBER_1">70094 54317</field>
+        <field name="PHONE_NUMBER_2">70094 54317</field>
+        <field name="YEAR">1</field>
+        <field name="ROOM_NO">60</field>
+        <field name="QUOTA">AIQ</field>
+        <field name="STATUS">Allotted</field>
+        </row>
+        </data>
+   </table>
+</database>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="Hostel">
+    <table name="freshers_allotment">
+        <column name="NAME" type="varchar(50)" default="NULL" />
+        <column name="ROLL_NO" type="varchar(20)" default="NULL" />
+        <column name="YEAR" type="varchar(50)" default="NULL" />
+        <column name="QUOTA" type="varchar(20)" default="NULL" />
+        <column name="BRANCH" type="int(11)" default="NULL" />
+        <column name="CITY" type="int(11)" default="NULL" />
+        <column name="STATE" type="int(11)" default="NULL" />
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml version="1.0"?>
+<resultset statement="INSERT INTO `cca_hostel` (`Name`, `Roll_no`, `Year`, `Quota`, `Branch`, `City`, `State`) VALUES">
+    <row>
+        <field name="Name">Snehil Bhardwaj</field>
+        <field name="Roll_no">CO20357</field>
+        <field name="Year">4</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">CSE</field>
+        <field name="City">Muzaffarpur</field>
+        <field name="State">Bihar</field>
+    </row>
+    <row>
+        <field name="Name">Gaurav Prakash</field>
+        <field name="Roll_no">MCO22386</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">CSE</field>
+        <field name="City">Patna</field>
+        <field name="State">Bihar</field>
+    </row>
+    <row>
+        <field name="Name">Deepinder Singh</field>
+        <field name="Roll_no">LCO21380</field>
+        <field name="Year">3</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">CSE</field>
+        <field name="City">Rupnagar</field>
+        <field name="State">Punjab</field>
+    </row>
+    <row>
+        <field name="Name">Shivam</field>
+        <field name="Roll_no">MCO22391</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">CSE</field>
+        <field name="City">Delhi</field>
+        <field name="State">Delhi</field>
+    </row>
+    <row>
+        <field name="Name">Samridh Raj Singh</field>
+        <field name="Roll_no">LCO22226</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">Civil</field>
+        <field name="City">Una</field>
+        <field name="State">Himachal Pradesh</field>
+    </row>
+    <row>
+        <field name="Name">Sahil Deep Singh</field>
+        <field name="Roll_no">MCO22240</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">Civil</field>
+        <field name="City">Mohali</field>
+        <field name="State">Punjab</field>
+    </row>
+    <row>
+        <field name="Name">Tanuj Goyal</field>
+        <field name="Roll_no">LCO22241</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">Civil</field>
+        <field name="City">Sangrur</field>
+        <field name="State">Punjab</field>
+    </row>
+    <row>
+        <field name="Name">Siddhant Kumar</field>
+        <field name="Roll_no">LCO22120</field>
+        <field name="Year">2</field>
+        <field name="Quota">AIQ</field>
+        <field name="Branch">Mech</field>
+        <field name="City">Morinda</field>
+        <field name="State">Punjab</field>
+    </row>
+</resultset>

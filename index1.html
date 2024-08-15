@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee Joining Form</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+<center>
+    <form action="/submit" method="post" id="joinForm" class="animate">
+        <h1><u>HOSTEL COMMITTEE JOINING FORM</u></h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" name="rollNo" required>
+        <br>
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" required>
+        <br>
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+        <br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <br>
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+        <br>
+        <label for="Committee Interested">Committee Interested:</label>
+        <select name="Committee" id="" placeholder="Choose Committee"> 
+            <option value="" placeholder=>Mess </option>
+            <option value="">Gardening</option>
+            <option value="">Infrastructure</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</center>
+<script src="">
+    document.addEventListener("DOMContentLoaded", function() {
+    animateForm();
+});
+function animateForm() {
+    const form = document.getElementById("joinForm");
+    const formElements = form.querySelectorAll("label, input, select");
+
+        formElements.forEach((element, index) => {
+        setTimeout(() => {
+            element.classList.add("animate");
+        }, index * 100); 
+    });
+}
+document.addEventListener("DOMContentLoaded", function() {
+            animateForm();
+        });
+        function animateForm() {
+            const form = document.getElementById("joinForm");
+            const formElements = form.querySelectorAll("label, input, select");
+            formElements.forEach((element, index) => {
+                setTimeout(() => {
+                    element.classList.add("animate");
+                }, index * 100); 
+            });
+        }
+</script>
+</body>
+</html>

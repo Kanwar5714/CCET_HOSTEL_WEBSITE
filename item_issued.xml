@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<database name="mysql">
+    <table name="item_issued">
+        <column name="FLOOR_NO" type="varchar(10)"/>
+        <column name="ROOM_NO" type="int(11)"/>
+        <column name="BED" type="int(11)"/>
+        <column name="TABLES" type="int(11)"/>
+        <column name="CHAIR" type="int(11)"/>
+        <column name="FAN" type="int(11)"/>
+        <column name="BULBS" type="int(11)"/>
+        <column name="TUBE_LIGHT" type="int(11)"/>
+        <column name="OTHER_ITEM" type="decimal(5,1)"/>
+        <data>
+            <row>
+                <field name="FLOOR_NO">G.F</field>
+                <field name="ROOM_NO">32</field>
+                <field name="BED">4</field>
+                <field name="TABLES">4</field>
+                <field name="CHAIR">4</field>
+                <field name="FAN">3</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">2</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+            <row>
+                <field name="FLOOR_NO">G.F</field>
+                <field name="ROOM_NO">33</field>
+                <field name="BED">4</field>
+                <field name="TABLES">4</field>
+                <field name="CHAIR">4</field>
+                <field name="FAN">2</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">2</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+            <row>
+                <field name="FLOOR_NO">G.F</field>
+                <field name="ROOM_NO">34</field>
+                <field name="BED">4</field>
+                <field name="TABLES">4</field>
+                <field name="CHAIR">4</field>
+                <field name="FAN">2</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">4</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+           
+            <row>
+                <field name="FLOOR_NO">F.F.</field>
+                <field name="ROOM_NO">57</field>
+                <field name="BED">1</field>
+                <field name="TABLES">1</field>
+                <field name="CHAIR">1</field>
+                <field name="FAN">2</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">4</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+            <row>
+                <field name="FLOOR_NO">F.F.</field>
+                <field name="ROOM_NO">58</field>
+                <field name="BED">1</field>
+                <field name="TABLES">1</field>
+                <field name="CHAIR">1</field>
+                <field name="FAN">3</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">4</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+            <row>
+                <field name="FLOOR_NO">F.F.</field>
+                <field name="ROOM_NO">59</field>
+                <field name="BED">2</field>
+                <field name="TABLES">0</field>
+                <field name="CHAIR">3</field>
+                <field name="FAN">1</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">2</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+            <row>
+                <field name="FLOOR_NO">F.F.</field>
+                <field name="ROOM_NO">60</field>
+                <field name="BED">3</field>
+                <field name="TABLES">3</field>
+                <field name="CHAIR">3</field>
+                <field name="FAN">1</field>
+                <field name="BULBS">0</field>
+                <field name="TUBE_LIGHT">1</field>
+                <field name="OTHER_ITEM"></field>
+            </row>
+
+
+
+
+        </data>
+   </table>
+</database>

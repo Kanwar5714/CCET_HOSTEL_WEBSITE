@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="mysql">
+    <table name="freshers_allotment">
+        <column name="Sr_No" type="int(11)" default="NULL" />
+        <column name="ROLL_NO" type="varchar(20)" default="NULL" />
+        <column name="NAME" type="varchar(50)" default="NULL" />
+        <column name="BRANCH" type="varchar(50)" default="NULL" />
+        <column name="PHONE_No" type="varchar(20)" default="NULL" />
+        <column name="YEAR" type="int(11)" default="NULL" />
+        <column name="ROOM_NO" type="int(11)" default="NULL" />
+      
+    <?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <row>
+        <field name="SNo">1</field>
+        <field name="Roll_No">CO21344</field>
+        <field name="Name">Mohd Tarique</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9568926309</field>
+        <field name="Year">3</field>
+        <field name="Room_No">32</field>
+    </row>
+    <row>
+        <field name="SNo">2</field>
+        <field name="Roll_No">CO21367</field>
+        <field name="Name">Varun Goyal</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">7719559242</field>
+        <field name="Year">3</field>
+        <field name="Room_No">32</field>
+    </row>
+    <row>
+        <field name="SNo">3</field>
+        <field name="Roll_No">CO21563</field>
+        <field name="Name">Shivang Dwivedi</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8319096593</field>
+        <field name="Year">3</field>
+        <field name="Room_No">32</field>
+    </row>
+    <row>
+        <field name="SNo">4</field>
+        <field name="Roll_No">CO20322</field>
+        <field name="Name">Himanshu Saha</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">7255093556</field>
+        <field name="Year">4</field>
+        <field name="Room_No">33</field>
+    </row>
+    <row>
+        <field name="SNo">5</field>
+        <field name="Roll_No">CO21210</field>
+        <field name="Name">Ashish Kumar</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">8529717479</field>
+        <field name="Year">3</field>
+        <field name="Room_No">34</field>
+    </row>
+    <row>
+        <field name="SNo">6</field>
+        <field name="Roll_No">CO21102</field>
+        <field name="Name">Aditya Anand</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">6205109094</field>
+        <field name="Year">3</field>
+        <field name="Room_No">34</field>
+    </row>
+    <row>
+        <field name="SNo">7</field>
+        <field name="Roll_No">CO21215</field>
+        <field name="Name">Gulshan Kumar</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">7033682669</field>
+        <field name="Year">3</field>
+        <field name="Room_No">34</field>
+    </row>
+    <row>
+        <field name="SNo">8</field>
+        <field name="Roll_No">CO20119</field>
+        <field name="Name">Kuldeep Rathi</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">9352634637</field>
+        <field name="Year">4</field>
+        <field name="Room_No">35</field>
+    </row>
+    <row>
+        <field name="SNo">9</field>
+        <field name="Roll_No">CO20236</field>
+        <field name="Name">Rahul Chatta</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">9649854823</field>
+        <field name="Year">4</field>
+        <field name="Room_No">35</field>
+    </row>
+    <row>
+        <field name="SNo">10</field>
+        <field name="Roll_No">CO20102</field>
+        <field name="Name">Abhijeet Kumar</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">9821154149</field>
+        <field name="Year">4</field>
+        <field name="Room_No">36</field>
+    </row>
+    <row>
+        <field name="SNo">11</field>
+        <field name="Roll_No">CO20231</field>
+        <field name="Name">Om Prakash</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">9508537727</field>
+        <field name="Year">4</field>
+        <field name="Room_No">36</field>
+    </row>
+    <row>
+        <field name="SNo">12</field>
+        <field name="Roll_No">CO20534</field>
+        <field name="Name">Jatin</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8765678453</field>
+        <field name="Year">4</field>
+        <field name="Room_No">37</field>
+    </row>
+    <row>
+        <field name="SNo">13</field>
+        <field name="Roll_No">CO20505</field>
+        <field name="Name">Chetan</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">9548446151</field>
+        <field name="Year">4</field>
+        <field name="Room_No">37</field>
+    </row>
+    <row>
+        <field name="SNo">14</field>
+        <field name="Roll_No">CO20334</field>
+        <field name="Name">Snehil Bhardwaj</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9876785465</field>
+        <field name="Year">4</field>
+        <field name="Room_No">37</field>
+    </row>
+    <row>
+        <field name="SNo">15</field>
+        <field name="Roll_No">CO22546</field>
+        <field name="Name">Tushar</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8799715053</field>
+        <field name="Year">4</field>
+        <field name="Room_No">37</field>
+    </row>
+    <row>
+        <field name="SNo">16</field>
+        <field name="Roll_No">MCO20164</field>
+        <field name="Name">Aditya Motla</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">7668056829</field>
+        <field name="Year">4</field>
+        <field name="Room_No">38</field>
+    </row>
+    <row>
+        <field name="SNo">17</field>
+        <field name="Roll_No">LCO20377</field>
+        <field name="Name">Vyoam Yadav</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9760404444</field>
+        <field name="Year">4</field>
+        <field name="Room_No">38</field>
+    </row>
+    <row>
+        <field name="SNo">18</field>
+        <field name="Roll_No">LCO20166</field>
+        <field name="Name">Anmol Sharma</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">8725846263</field>
+        <field name="Year">4</field>
+        <field name="Room_No">38</field>
+    </row>
+    <row>
+        <field name="SNo">19</field>
+        <field name="Roll_No">CO22350</field>
+        <field name="Name">Prateek Batra</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9988770627</field>
+        <field name="Year">2</field>
+        <field name="Room_No">39</field>
+    </row>
+    <row>
+        <field name="SNo">20</field>
+        <field name="Roll_No">LCO21270</field>
+        <field name="Name">Khalid Farooq</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">6005885778</field>
+        <field name="Year">3</field>
+        <field name="Room_No">39</field>
+    </row>
+    <row>
+        <field name="SNo">21</field>
+        <field name="Roll_No">CO22352</field>
+        <field name="Name">Raj Kanwar Singh</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">8568879517</field>
+        <field name="Year">2</field>
+        <field name="Room_No">39</field>
+    </row>
+    <row>
+        <field name="SNo">22</field>
+        <field name="Roll_No">CO22113</field>
+        <field name="Name">Sourav Gotra</field>
+        <field name="Branch">Mech</field>
+        <field name="Phone_No">9622910381</field>
+        <field name="Year">2</field>
+        <field name="Room_No">40</field>
+    </row>
+    <row>
+        <field name="SNo">23</field>
+        <field name="Roll_No">CO22377</field>
+        <field name="Name">Yuvraj Redhu</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9306911750</field>
+        <field name="Year">2</field>
+        <field name="Room_No">40</field>
+    </row>
+    <row>
+        <field name="SNo">24</field>
+        <field name="Roll_No">CO22112</field>
+        <field name="Name">Vijay Kumar</field>
+        <field name="Branch">Mech</field>
+        <field name="Phone_No">8899693653</field>
+        <field name="Year">2</field>
+        <field name="Room_No">40</field>
+    </row>
+    <row>
+        <field name="SNo">25</field>
+        <field name="Roll_No">CO21359</field>
+        <field name="Name">Sovan Chakma</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9863976424</field>
+        <field name="Year">3</field>
+        <field name="Room_No">41</field>
+    </row>
+    <row>
+        <field name="SNo">26</field>
+        <field name="Roll_No">CO21503</field>
+        <field name="Name">Abhijeet Rana</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8877546871</field>
+        <field name="Year">3</field>
+        <field name="Room_No">41</field>
+    </row>
+    <row>
+        <field name="SNo">27</field>
+        <field name="Roll_No">CO21151</field>
+        <field name="Name">Sameer Gupta</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">7852858932</field>
+        <field name="Year">3</field>
+        <field name="Room_No">41</field>
+    </row>
+    <row>
+        <field name="SNo">28</field>
+        <field name="Roll_No">CO21247</field>
+        <field name="Name">Vaibhav Salatri</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">8905527404</field>
+        <field name="Year">3</field>
+        <field name="Room_No">41</field>
+    </row>
+    <row>
+        <field name="SNo">29</field>
+        <field name="Roll_No">CO21356</field>
+        <field name="Name">Shaurya Harsh</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">6200580485</field>
+        <field name="Year">3</field>
+        <field name="Room_No">42</field>
+    </row>
+    <row>
+        <field name="SNo">30</field>
+        <field name="Roll_No">CO21512</field>
+        <field name="Name">Aman Kumar</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">7634966583</field>
+        <field name="Year">3</field>
+        <field name="Room_No">42</field>
+    </row>
+    <row>
+        <field name="SNo">31</field>
+        <field name="Roll_No">CO21532</field>
+        <field name="Name">Gopesh Kishore</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">9305772266</field>
+        <field name="Year">3</field>
+        <field name="Room_No">42</field>
+    </row>
+    <row>
+        <field name="SNo">32</field>
+        <field name="Roll_No">CO21237</field>
+        <field name="Name">Rishav Bharti</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">9389570956</field>
+        <field name="Year">3</field>
+        <field name="Room_No">42</field>
+    </row>
+    <row>
+        <field name="SNo">33</field>
+        <field name="Roll_No">CO21361</field>
+        <field name="Name">Tarayan Aggarwal</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9877028817</field>
+        <field name="Year">3</field>
+        <field name="Room_No">43</field>
+    </row>
+    <row>
+        <field name="SNo">34</field>
+        <field name="Roll_No">CO21148</field>
+        <field name="Name">Robin Kumar</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">7876280000</field>
+        <field name="Year">3</field>
+        <field name="Room_No">43</field>
+    </row>
+    <row>
+        <field name="SNo">35</field>
+        <field name="Roll_No">CO21165</field>
+        <field name="Name">Kamal Kishore</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">9103256778</field>
+        <field name="Year">3</field>
+        <field name="Room_No">43</field>
+    </row>
+    <row>
+        <field name="SNo">36</field>
+        <field name="Roll_No">LCO21254</field>
+        <field name="Name">Akhil</field>
+        <field name="Branch">Civil</field>
+        <field name="Phone_No">7807346294</field>
+        <field name="Year">3</field>
+        <field name="Room_No">43</field>
+    </row>
+    <row>
+        <field name="SNo">37</field>
+        <field name="Roll_No">CO22521</field>
+        <field name="Name">Harshit Pal</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8076540274</field>
+        <field name="Year">2</field>
+        <field name="Room_No">44</field>
+    </row>
+    <row>
+        <field name="SNo">38</field>
+        <field name="Roll_No">CO22108</field>
+        <field name="Name">Owais Qamer</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">9096566897</field>
+        <field name="Year">2</field>
+        <field name="Room_No">44</field>
+    </row>
+    <row>
+        <field name="SNo">39</field>
+        <field name="Roll_No">CO22211</field>
+        <field name="Name">Ishant Chohan</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">7814567961</field>
+        <field name="Year">2</field>
+        <field name="Room_No">44</field>
+    </row>
+    <row>
+        <field name="SNo">40</field>
+        <field name="Roll_No">CO22218</field>
+        <field name="Name">Ritik Maheswari</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">9636674236</field>
+        <field name="Year">2</field>
+        <field name="Room_No">44</field>
+    </row>
+    <row>
+        <field name="SNo">41</field>
+        <field name="Roll_No">CO22378</field>
+        <field name="Name">Chandan Sharma</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">7006535993</field>
+        <field name="Year">2</field>
+        <field name="Room_No">45</field>
+    </row>
+    <row>
+        <field name="SNo">42</field>
+        <field name="Roll_No">CO22201</field>
+        <field name="Name">Aawan Khan</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">9858716666</field>
+        <field name="Year">2</field>
+        <field name="Room_No">45</field>
+    </row>
+    <row>
+        <field name="SNo">43</field>
+        <field name="Roll_No">CO22213</field>
+        <field name="Name">Kartik Bahri</field>
+        <field name="Branch">Civil</field>
+        <field name="Phone_No">7814878973</field>
+        <field name="Year">2</field>
+        <field name="Room_No">45</field>
+    </row>
+    <row>
+        <field name="SNo">44</field>
+        <field name="Roll_No">CO22225</field>
+        <field name="Name">Sudhir Sharma</field>
+        <field name="Branch">Civil</field>
+        <field name="Phone_No">6006527918</field>
+        <field name="Year">2</field>
+        <field name="Room_No">45</field>
+    </row>
+    <row>
+        <field name="SNo">45</field>
+        <field name="Roll_No">CO20238</field>
+        <field name="Name">Rajnish Bansal</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">8360642600</field>
+        <field name="Year">4</field>
+        <field name="Room_No">46</field>
+    </row>
+    <row>
+        <field name="SNo">46</field>
+        <field name="Roll_No">CO20370</field>
+        <field name="Name">Vikrant Sharma</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">7006435833</field>
+        <field name="Year">4</field>
+        <field name="Room_No">46</field>
+    </row>
+    <row>
+        <field name="SNo">47</field>
+        <field name="Roll_No">CO20247</field>
+        <field name="Name">Sunny Kumar</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">8969868044</field>
+        <field name="Year">4</field>
+        <field name="Room_No">46</field>
+    </row>
+    <row>
+        <field name="SNo">48</field>
+        <field name="Roll_No">CO22532</field>
+        <field name="Name">Nikhil</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">9350577043</field>
+        <field name="Year">2</field>
+        <field name="Room_No">47</field>
+    </row>
+    <row>
+        <field name="SNo">49</field>
+        <field name="Roll_No">CO22347</field>
+        <field name="Name">Nipun Singh</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">6283882519</field>
+        <field name="Year">2</field>
+        <field name="Room_No">47</field>
+    </row>
+    <row>
+        <field name="SNo">50</field>
+        <field name="Roll_No">CO22327</field>
+        <field name="Name">Divyansh Manro</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">8360799948</field>
+        <field name="Year">2</field>
+        <field name="Room_No">47</field>
+    </row>
+    <row>
+        <field name="SNo">51</field>
+        <field name="Roll_No">CO22304</field>
+        <field name="Name">Aditya Yadav</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">8786345123</field>
+        <field name="Year">2</field>
+        <field name="Room_No">47</field>
+    </row>
+    <row>
+        <field name="SNo">52</field>
+        <field name="Roll_No">CO20124</field>
+        <field name="Name">Prince Kumar</field>
+        <field name="Branch">MECH</field>
+        <field name="Phone_No">7970875920</field>
+        <field name="Year">4</field>
+        <field name="Room_No">49</field>
+    </row>
+    <row>
+        <field name="SNo">53</field>
+        <field name="Roll_No">CO20206</field>
+        <field name="Name">Ankit Kumar</field>
+        <field name="Branch">CIVIL</field>
+        <field name="Phone_No">7061110572</field>
+        <field name="Year">4</field>
+        <field name="Room_No">49</field>
+    </row>
+    <row>
+        <field name="SNo">54</field>
+        <field name="Roll_No">CO20560</field>
+        <field name="Name">Shitij Bhat</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">9650096763</field>
+        <field name="Year">4</field>
+        <field name="Room_No">49</field>
+    </row>
+    <row>
+        <field name="SNo">55</field>
+        <field name="Roll_No">CO22322</field>
+        <field name="Name">Deepak Kumar Jha</field>
+        <field name="Branch">CSE</field>
+        <field name="Phone_No">9508881750</field>
+        <field name="Year">2</field>
+        <field name="Room_No">50</field>
+    </row>
+    <row>
+        <field name="SNo">56</field>
+        <field name="Roll_No">CO22547</field>
+        <field name="Name">Subrajeet Paul</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8822100971</field>
+        <field name="Year">2</field>
+        <field name="Room_No">50</field>
+    </row>
+    <row>
+        <field name="SNo">57</field>
+        <field name="Roll_No">CO22520</field>
+        <field name="Name">Harshdeep dey</field>
+        <field name="Branch">ECE</field>
+        <field name="Phone_No">8597389168</field>
+        <field name="Year">2</field>
+        <field name="Room_No">50</field>
+    </row>
+</resultset>
+  
